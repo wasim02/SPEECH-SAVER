@@ -1,11 +1,12 @@
 import './App.css';
 import React, { Component } from 'react';
+import { Button } from 'reactstrap';
 
 class App extends Component {
   state = {  }
   render() { 
     return (  
-      <h2>React App</h2>
+      <Button color="danger">Danger!</Button>
     );
   }
 }
